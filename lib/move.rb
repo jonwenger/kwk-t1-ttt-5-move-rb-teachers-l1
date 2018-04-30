@@ -1,6 +1,6 @@
 board = [" "," "," "," "," "," "," "," "," ",]
 
-def input_to_index(input_to_index)
+def input_to_index(input)
   index = (input.to_i-1)
   update_array_at_with(board,index)
     end
@@ -11,6 +11,7 @@ end
 
 def update_array_at_with(array, index, value = "X")
   array[index] = value
+  puts board
 end
 
 def display_board(board)
