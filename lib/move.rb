@@ -7,8 +7,9 @@ def input_to_index(input)
       end
 
 def move (board, index, value = "X")
-  board[index]= "X"
-  display_board(board)
+puts value
+  #board[index]= "X"
+  #display_board(board)
 
 end
 
