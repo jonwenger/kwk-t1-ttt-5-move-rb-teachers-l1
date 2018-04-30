@@ -10,4 +10,4 @@ board = [" "," "," "," "," "," "," "," "," ",]
 
 
 
-puts "are you sure you want to go to #{turn}"
+puts "are you sure you want to go to #{input}"
