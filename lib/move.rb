@@ -1,11 +1,13 @@
 
+index = 0
 
 def input_to_index(input)
   index = (input.to_i-1)
   return index
+  puts index
       end
 
-def update_array_at_with(array, index, value = "X")
+def update_array_at_with(
   array[index] = value
   puts board
 end
