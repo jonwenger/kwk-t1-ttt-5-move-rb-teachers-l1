@@ -7,7 +7,7 @@ def input_to_index(input)
   puts index
       end
 
-def update_array_at_with(
+def update_array_at_with(index)
   array[index] = value
   puts board
 end
