@@ -2,11 +2,15 @@
 
 require_relative '../lib/move.rb'
 
-puts "Welcome to Tic Tac Toe!"
-puts "Where would you like to go?"
-input = (gets.strip.to_i-1)
 
-board = [" "," "," "," "," "," "," "," "," ",]
+
+
+puts "Welcome to Tic Tac Toe!"
+100.times (puts "Vance needs to bring his grade up")
+# input = (gets.strip)
+# input_to_index(input)
+
+
 
 
 
