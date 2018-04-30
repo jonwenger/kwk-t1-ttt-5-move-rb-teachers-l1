@@ -5,6 +5,7 @@ def input_to_index(input, board)
   index = (input.to_i-1)
   puts index
   board[index]= "x"
+  puts board
       end
 
 
