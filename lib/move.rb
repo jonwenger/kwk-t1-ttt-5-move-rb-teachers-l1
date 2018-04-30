@@ -1,13 +1,16 @@
 
 index = 0
 
-def input_to_index(input, board)
+def input_to_index(input)
   index = (input.to_i-1)
-  board[index]= "x"
-  display_board(board)
-
+  return index
       end
 
+def move (board, index, value = "X")
+  board[index]= "X"
+  display_board(board)
+
+end
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
