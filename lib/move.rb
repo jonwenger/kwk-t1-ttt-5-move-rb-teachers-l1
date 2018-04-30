@@ -1,7 +1,7 @@
 
 index = 0
 
-def input_to_index(input, array)
+def input_to_index(input, board)
   index = (input.to_i-1)
   puts index
   board[index]= "x"
