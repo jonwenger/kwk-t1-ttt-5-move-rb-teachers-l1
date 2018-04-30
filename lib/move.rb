@@ -2,7 +2,7 @@
 index = 0
 
 def input_to_index(input)
-  puts 7
+  puts index
   index = (input.to_i-1)
   return index
   puts index
