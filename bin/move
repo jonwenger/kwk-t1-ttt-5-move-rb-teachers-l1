@@ -10,7 +10,7 @@ board = [" "," "," ","x"," "," "," "," "," "]
 puts "Where would you like to go?"
 input = (gets.strip)
  input_to_index(input)
- update_array_at_with(board, index, value)
+ update_array_at_with(board, index)
 
 
 
