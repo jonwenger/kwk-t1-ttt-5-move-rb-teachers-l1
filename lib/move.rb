@@ -4,12 +4,10 @@ index = 0
 def input_to_index(input)
   index = (input.to_i-1)
   puts index
+  board[index]= "x"
+  puts board
       end
 
-def update_array_at_with(index)
-  array[index] = value
-  puts board
-end
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
