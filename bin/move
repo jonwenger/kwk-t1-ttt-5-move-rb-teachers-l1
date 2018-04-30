@@ -2,16 +2,12 @@
 
 require_relative '../lib/move.rb'
 
-
-
-
 puts "Welcome to Tic Tac Toe!"
 board = [" "," "," ","x"," "," "," "," "," "]
 puts "Where would you like to go?"
 input = (gets.strip)
  input_to_index(input)
- index2 = input_to_index
- puts "fhsjkdlfs #{index2}"
+ puts "fhsjkdlfs #{index}"
  update_array_at_with(board, index)
 
 
